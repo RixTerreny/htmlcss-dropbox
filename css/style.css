@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between; 
+}
+
+header div{
+    padding: 0.8rem 1.2rem;
+}
+
+.left, .right{
+    display: flex;
+}
+
+img{
+    object-fit: contain;
+}
+
+.start{
+    background-color: #0061ff;
+    color: white;
+}
