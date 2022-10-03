@@ -1,15 +1,52 @@
+/* general */
+
 *{
     margin:0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
 
+.container{
+    max-width: 920px;
+    margin: auto;
+    padding: 3rem 0;
+}
+
+h1{
+    font-size: 4.5rem;
+    margin-bottom: 3rem;
+}
+
+
+h2{
+    font-size: 2.5rem;
+    padding: 3rem 0;
+}
+
+h3{
+    padding: 0.8rem;
+    font-size: 1.5rem;
+}
+
+h4{
+    font-size: 0.96rem;
+    margin: 2.5rem 0;
+    padding: 0 0.6rem;
+}
+
+.flex{
+    display: flex;
+}
+
+
+/* nav bar */
 nav{
     display: flex;
     justify-content: space-between;
     position: fixed;
     width: 100%;
     background-color: white;
+    z-index: 1;
 }
 
 nav div{
@@ -31,9 +68,11 @@ button{
     border: 0;
 }
 
+/* main start */
 .main-article{
     background-color: #b4d0e7;
     padding: 4rem 0 0rem 0;
+    margin-bottom: 3rem;
 }
 
 .large-container{
@@ -41,15 +80,6 @@ button{
     margin: auto;
     position: relative;
     top: 4rem;
-}
-
-h1{
-    font-size: 4.5rem;
-    margin-bottom: 3rem;
-}
-
-.flex{
-    display: flex;
 }
 
 .main-article p{
@@ -73,4 +103,76 @@ h1{
 .icon img{
     width: 18%;
     margin: 0.8rem 0rem;
+}
+
+/* fatturazione */
+.radio{
+    border: 2px solid #0061ff;
+    font-size: 2rem;
+}
+
+label{
+    padding: 0 2rem 0 0;
+}
+
+/* colonne */
+.column{
+    border: 1px solid grey;
+    margin: 3rem 0.5rem 0 0;
+    padding: 0%;
+    width: 32%;
+}
+
+.top{
+    border-bottom: 1px solid grey;
+    text-align: center;
+    padding: 0.3rem 0;
+}
+
+.padding {
+    padding: 0.5rem;
+    margin: auto;
+}
+
+.padding div{
+    padding: 0 0 1rem 1rem ;
+}
+
+.time{
+    color: grey;
+    margin-bottom: 2.2rem ;
+}
+
+.padding button{
+    margin: 2rem 0 1.5rem 0;
+    font-size: 1rem;
+    width: 100%;
+}
+
+hr{
+    width: 15%;
+    margin: 1.5rem 0;
+}
+
+.column img{
+    width: 1rem;
+    margin-right: 8px;
+}
+
+.column a{
+    color: #6563f0;
+}
+
+.small{
+    width: 2rem;
+}
+
+.column li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+.flex-icon{
+    display: flex;
+    align-items: flex-start;
 }
