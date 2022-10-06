@@ -49,8 +49,33 @@ h4{
     padding: 0 0.6rem;
 }
 
+hr{
+    width: 11%;
+}
+
+svg{
+    fill: white;
+}
+
 .flex{
     display: flex;
+}
+
+.flex-just{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-align{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 
@@ -123,11 +148,6 @@ label{
 }
 
 /* colonne */
-.flex-just{
-    display: flex;
-    justify-content: space-between;
-}
-
 .column{
     border: 1px solid grey;
     margin: 3rem 0.5rem 0 0;
@@ -220,11 +240,6 @@ hr{
 }
 
 /* 4 section */
-.flex-wrap{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
 .grid{
     width: 30%;
 }
@@ -235,15 +250,73 @@ hr{
     margin: 1rem 0;
 }
 
-/* celeste */
-.celeste{
+/* box */
+.square{
+    width: 50%;
+    height: 16vw;
+    text-align: center;
+    position: relative;
+}
+
+.square svg{
+    width: 11rem;
+    margin: 0 auto;
+}
+
+.box-w{
+    width: 33.333333%;
+}
+
+#box-1{
+    background-color: #a2d39b;
+}
+
+#box-2{
+    background-color: #61082b;
+}
+
+#box-3{
+    background-color: #0093ce;
+}
+
+#box-4{
+    background-color: #ff1c1c;
+}
+
+#central-box{
+    background-color: #f5f5f5;
+    padding: 3rem;
+}
+
+#central-box img{
+    width: 20rem;
+}
+
+#central-box div:last-child{
+    margin: 2.5rem 0;
+}
+
+#box-5{
+    background-color: #d5001f;
+}
+
+#box-6{
     background-color: #b4d0e7;
 }
 
-.flex-align{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+#box-7{
+    background-color: #0d2481;
+}
+
+#box-8{
+    background-color: #ffd830;
+}
+
+
+
+/* celeste */
+.celeste{
+    background-color: #b4d0e7;
 }
 
 .celeste h2{
@@ -265,9 +338,54 @@ hr{
 /* section */
 .border-b>*{
     border-bottom: 1px solid grey;
-
 }
 
 .border-b div{
     padding: 1.5rem 0 1rem 0;
+}
+
+.border-b .flex-just:last-child {
+    margin-bottom: 4.5rem;
+}
+
+/* footer */
+footer{
+    background-color: black;
+    color: white;
+}
+
+#no-top{
+    top: 0;
+    padding: 6rem 0 4.5rem 0;
+}
+
+footer .flex-just{
+    margin-bottom: 5.5rem;
+}
+
+footer h3{
+    padding: 0 0 1.5rem 0;
+}
+
+.padd div{
+    padding-bottom: 1.2rem;
+}
+
+footer hr{
+    width: 11%;
+    color: white;
+    margin-bottom: 3rem;
+}
+
+footer .flex-align{
+    justify-content: unset;
+}
+
+footer span{
+    margin: 0 0.2rem 0 0.4rem;
+}
+
+.resize{
+    width: 0.8rem;
+    margin-bottom: -3px;
 }
