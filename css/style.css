@@ -55,6 +55,7 @@ hr{
 
 svg{
     fill: white;
+    color: white;
 }
 
 .flex{
@@ -251,11 +252,16 @@ hr{
 }
 
 /* box */
+.box-container{
+    margin-top: 4rem;
+}
+
 .square{
     width: 50%;
     height: 16vw;
     text-align: center;
-    position: relative;
+    display: flex;
+    align-items: center;
 }
 
 .square svg{
@@ -269,6 +275,7 @@ hr{
 
 #box-1{
     background-color: #a2d39b;
+    border: 1rem solid #d1e9cd;
 }
 
 #box-2{
